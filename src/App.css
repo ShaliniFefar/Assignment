@@ -1,0 +1,66 @@
+
+h1{
+ text-align: center;
+}
+.tab-list {
+  border-bottom: 3px solid #ccc;
+  
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 10px 320px;
+}
+
+.tab-list-active {
+  background-color:white;
+  border: solid #ccc;
+  border-width: 5px 5px 0 5px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+table{
+  border: 1px solid black;
+  width: 100%;
+  table-layout: auto; 
+}
+tr:hover {
+  background-color: #cec7c7;
+  font-weight: bold;
+}
+
+td {
+  height: 25px;
+  vertical-align: bottom;
+  padding: 2px 0px 5px 60px;
+  
+}
+form {
+  padding: 30px 100px 100px 500px;
+}
+label {
+  font-weight: bold;
+}
+input {
+  width: 300px;
+  border: 2px solid rgb(155, 150, 150);
+  border-radius: 4px;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(155, 150, 150);
+  border-radius: 4px;
+}
+
+button {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+}
