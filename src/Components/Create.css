@@ -1,0 +1,19 @@
+form {
+  padding: 30px 100px 100px 500px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 300px;
+  border: 2px solid rgb(155, 150, 150);
+  border-radius: 4px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+}

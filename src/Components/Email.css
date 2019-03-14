@@ -1,0 +1,27 @@
+.div-email {
+  padding: 50px;
+}
+
+.table-email {
+  border: 1px solid black;
+  width: 700px;
+  border-collapse: collapse;
+}
+
+td {
+  height: 25px;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+tr {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.email-text {
+  width: 500px;
+  height: 80px;
+  border: 1px solid rgb(8, 8, 8);
+  box-sizing: border-box;
+}

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import Tab from './Tab';
+import './Create.css';
 
 class Create extends React.Component {
     constructor(props) {
         super(props);
-              }
+    }
     state = {
         to: '',
         subject: '',

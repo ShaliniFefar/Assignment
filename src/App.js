@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { render } from "react-dom";
+import Tabs from './Components/Tabs';
+import List from './Components/List';
+import Create from './Components/Create';
 import './App.css';
-import Tabs from './Tabs';
-import List from './List';
-import Create from './Create';
-import Email from './Email'
+
 
 class App extends Component {
 
@@ -15,18 +14,16 @@ class App extends Component {
         <h1>Email Client</h1>
         <Tabs>
       <div label="List">
-      <div> {
+      <div> 
           <List>
-          </List>
-         }
+          </List>  
       </div>
       </div>
       <div label="Create">
       <Create></Create>
-      
       </div>
     </Tabs>
-    <Email />
+    
       </div>
     );
   }

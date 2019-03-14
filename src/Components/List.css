@@ -1,0 +1,46 @@
+table {
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #cec7c7;
+  font-weight: bold;
+}
+
+td {
+  height: 25px;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+tr {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.checkboxTd {
+  text-align: center;
+  width:10%;
+}
+
+.fromTd, .textTd {
+  text-align: left;
+  width:25%;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(155, 150, 150);
+  border-radius: 4px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+}
